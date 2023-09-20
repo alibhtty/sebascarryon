@@ -96,6 +96,10 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -323,9 +327,11 @@ img {
 
 /*=============== BUTTON ===============*/
 .button{
-  background-color: hsla(0, 0%, 100%, .2);
+  /* background-color: hsla(0, 0%, 100%, .2); */
+  background-color: #F2F2F2;
   padding: 1.25rem 1.5rem;
-  color: var(--title-color);
+  /* color: var(--title-color); */
+  color: var(--body-color);
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
@@ -333,6 +339,7 @@ img {
   font-weight: var(--font-semi-bold);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
+  border-radius: 25px;
 }
 
 .botton i{
@@ -387,7 +394,8 @@ img {
 /*=============== POPULAR ===============*/
 .popular__container{
   padding-top: 1.5rem;
-  grid-template-columns: 240px;
+  /* grid-template-columns: 240px; */
+  grid-template-columns: 100%;
   justify-content: center;
   row-gap: 2.5rem;
 }
@@ -400,6 +408,7 @@ img {
 
 .popular__img{
   transition: transform .4s;
+  border-radius: 4px;
 }
 
 .popular__shadow{
@@ -441,6 +450,7 @@ img {
 }
 
 .explore__image{
+  width: 100%;
   position: absolute;
   overflow: hidden;
 }
@@ -511,6 +521,7 @@ img {
 .join__input{
   padding: 1.25rem 1rem;
   background-color: var(--container-color);
+  border-radius: 25px;
 }
 
 .join__button{
@@ -521,6 +532,7 @@ img {
   position: relative;
   justify-self: center;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .join__img{
@@ -649,6 +661,7 @@ img {
   -webkit-backdrop-filter: blur(24px);
   z-index: var(--z-tooltip);
   transition: bottom .4s, transform .4s;
+  border-radius: 25px;
 }
 
 
@@ -658,8 +671,58 @@ img {
 
 /* Show Scroll Up */
 .show-scroll{
-  bottom: 3rem;
+  bottom: 2.5rem;
 }
+
+/* Swiper class */
+.home__images{
+  display: grid;
+  position: relative;
+  margin-top: 15rem;
+  margin-bottom: 2rem;
+}
+.home__shoe{
+  width: 800px; /* 300px */
+  max-height: auto;
+  margin-inline: auto;
+  border-radius: 4px;
+}
+
+.home__shoe img{
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.swiper{
+  margin-inline: initial;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal{
+  bottom: -2rem;
+}
+
+.swiper-pagination-bullet{
+  width: 1rem;
+  height: .25rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 255, 255, .1);
+  /* background-color: var(--black-color-light); */
+  opacity: 1;
+  transition: background-color .3s, width .3s;
+}
+
+.swiper-pagination-bullet-active{
+  width: 1.25rem;
+  background-color: rgb(255, 255, 255, .9);
+  /* background-color: var(--black-color); */
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+  margin: 0 2px;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
@@ -667,7 +730,6 @@ img {
   .container{
     margin: 1rem;
   }
-
   .footer__data{
     grid-template-columns: max-content;
   }
