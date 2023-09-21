@@ -934,3 +934,21 @@ img {
     right: 3rem;
   }
 }
+
+
+
+
+
+/* PWA STYLE */
+@media screen and (display-mode: standalone) {
+  /* .nav{
+    height: 88px !important;
+  } */
+  .nav{
+    display: flex;
+    margin-top: 44px !important;
+  }
+  .home__data{
+    padding-top: 20vh !important; /* 44px */
+  }
+} /* display-mode: standalone */
