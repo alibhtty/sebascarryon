@@ -1,13 +1,13 @@
 {
     "name":"Sebascarryon",
     "short_name":"Sebascarryon",
-    "description":"SC Portfolio – Fotografía en Barcelona",
+    "description":"SC Portfolio – Fotografía Barcelona",
     "background_color":"#000000",
     "theme_color":"#229BC7",
     "orientation":"portrait",
     "display":"standalone",
     "start_url":"./?utm_source=web_app_manifest",
-    "scope":"./",
+    "scope":"../",
     "lang":"es-ES",
     "icons":[
         {
