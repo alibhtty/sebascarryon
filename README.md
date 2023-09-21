@@ -1,13 +1,13 @@
-# Responsive Travel Website
-## [Watch it on youtube](https://youtu.be/cgV2tN8gxCg)
-### Responsive Travel Website
+# Sebascarryon – Dev by 4B
+## [Visitar sitio](https://alibhtty.com/start/)
+### PWA Portfolio
 
-- Responsive Travel Website Design Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- Diseño de sitios web de viaje receptivo utilizando HTML CSS y JavaScript.
+- Contiene animaciones al desplazarse.
+- Desplazamiento suave en cada sección.
+- Desarrollado con la metodología Mobile First, luego para el escritorio.
+- Campatibilidad móvil & desktop 
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+Website. [4B](https://alibhtty.com/start/)
 
 ![preview img](/preview.png)

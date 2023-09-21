@@ -2,10 +2,25 @@
    <html lang="en">
    <head>
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=0">
+      <meta name="apple-mobile-web-app-title" content="Sebascarryon">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <meta name="msapplication-TileColor" content="#2da3ba">
+      <meta name="referrer" content="always" />
+      <meta name="theme-color" content="#000000" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="applicable-device" content="pc,mobile">
 
       <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link rel="shortcut icon" href="assets/icons/videocam.svg" type="image/x-icon">
+      <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/icon_192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon_32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/icon_16.png">
+      <link rel="manifest" href="assets/manifest.json">
+      <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/icons/icon_192.ico"> -->
 
       <!--=============== REMIXICONS ===============-->
       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
@@ -68,11 +83,11 @@
             <div class="home__container container grid">
                <div class="home__data">
                   <h3 class="home__subtitle">
-                     Bienvenido
+                     Explorar
                   </h3>
 
                   <h1 class="home__title">
-                     Traveler
+                     Galería
                   </h1>
 
                   <p class="home__description">
@@ -85,7 +100,7 @@
                      detras de un lente óptico para generar <br> nuevas experiencias.
                   </p> -->
 
-                  <a href="#" class="button">
+                  <a href="#contact" class="button">
                      Work with me <i class="ri-arrow-right-line"></i> <!-- Start Your Journey -->
                   </a>
                </div>
@@ -272,7 +287,7 @@
          
          <!--==================== JOIN ====================-->
          <section class="join section">
-            <div class="join__container container grid">
+            <div class="join__container container grid" id="contact">
                <div class="join__data">
                   <h2 class="section__title">
                      Tu cita <br>
@@ -429,5 +444,8 @@
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
+
+      <!--=============== SW.js ===============-->
+      <script src="./script.js"></script>
    </body>
 </html>
