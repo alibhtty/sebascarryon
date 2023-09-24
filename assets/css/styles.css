@@ -604,7 +604,8 @@ img {
 }
 
 .footer__group{
-  margin-top: 5rem;
+  margin-top: 0rem;
+  /* margin-top: 5rem; */
   flex-direction: column;
   align-items: center;
   row-gap: 2rem;
