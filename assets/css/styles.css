@@ -682,6 +682,14 @@ img {
   margin-top: 15rem;
   margin-bottom: 2rem;
 }
+.home__images-set{
+  display: grid;
+  position: relative;
+  margin: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
 .home__shoe{
   width: 800px; /* 300px */
   max-height: auto;
