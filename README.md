@@ -10,4 +10,4 @@
 
 Website. [4B](https://alibhtty.com/start/)
 
-![preview img](/preview.png)
+![preview img](/preview.jpg)
