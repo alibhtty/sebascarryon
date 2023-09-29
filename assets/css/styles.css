@@ -334,7 +334,7 @@ img {
 @media screen and (orientation: portrait) {
   .home__cards{
     position: absolute;
-    bottom: 1.5rem;
+    bottom: 2rem; /* 1.5rem */
     display: grid;
     width: 100%;
 
@@ -1013,8 +1013,11 @@ img {
     display: flex;
     margin-top: 44px !important;
   }
+  .nav__logo{
+    margin-top: .5rem;
+  }
   .home__data{
-    padding-top: 8vh !important; /* 44px */
+    padding-top: 4vh !important; /* 44px */
   }
   .nav__list{
     margin-top: 88px;
