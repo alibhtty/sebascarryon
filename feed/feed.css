@@ -13,46 +13,7 @@ body{
     padding:.5rem .5rem;
     transition: all 0.5s ease;
   }
-  @media only screen and (max-width:950px) {
-    .container_grid {
-      columns: 3;
-      margin-top: 4rem;
-    }
-  }
-  
-  @media only screen and (max-width: 650px) {
-    .container_grid {
-      columns: 2;
-      margin-top: 4rem;
-    }
-  }
-  
-  @media only screen and (max-width: 390px) {
-    .container_grid {
-      columns:1;
-      margin-top: 4rem;
-    }
-  }
 
-  @media (orientation: portrait) {
-    .container_grid {
-        columns: 2;
-        column-gap: .8rem;
-        padding:.5rem .5rem;
-        margin-top: 4rem;
-      }
-  }
-
-  @media (orientation: landscape) {
-    .container_grid {
-        columns: 4;
-        column-gap: .8rem;
-        padding:1rem 1rem;
-        margin-top: 7rem;
-      }
-  }
-  
-  
   .card_small{
     height:320px;
   }
@@ -88,10 +49,10 @@ body{
   
   .container_grid figcaption{
     position: absolute;
-    bottom: 20px;
-    left:10px;
+    bottom: 10px;
+    left:15px;
     color:white;
-    font-size:16px;
+    font-size:14px;
     font-weight:600;
     z-index:999;
     /*background-color:rgba(1, 1, 1, 0.2);*/
@@ -236,3 +197,62 @@ body{
   #prev-card:hover{
     cursor:pointer;
     background: linear-gradient(90deg, rgba(27,27,27,0.8) 0%, rgba(247,247,247,0) 100%);}
+
+
+
+
+    /* ===== QUERYS===== */
+    @media only screen and (max-width:950px) {
+      .container_grid {
+        columns: 3;
+        margin-top: 4rem;
+      }
+    }
+    
+    @media only screen and (max-width: 650px) {
+      .container_grid {
+        columns: 2;
+        margin-top: 4rem;
+      }
+    }
+    
+    @media only screen and (max-width: 390px) {
+      .container_grid {
+        columns:1;
+        margin-top: 4rem;
+      }
+    }
+  
+    @media (orientation: portrait) {
+      .container_grid {
+          columns: 2;
+          column-gap: .8rem;
+          padding:.5rem .5rem;
+          margin-top: 4rem;
+        }
+        .container_grid [class*="card"]:hover{
+          scale:95%;
+        }
+        .container_grid [class*="card"]:active{
+          scale:95%;
+        }
+    }
+  
+    @media (orientation: landscape) {
+      .container_grid {
+          columns: 4;
+          column-gap: .8rem;
+          padding:1rem 1rem;
+          margin-top: 7rem;
+        }
+    }
+
+/*------------           -----------*/
+/*----------  NO SELECTION  ----------*/
+/*------------           -----------*/
+.img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none
+}
