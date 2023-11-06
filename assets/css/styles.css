@@ -134,7 +134,8 @@ img {
   background-color: transparent;
   top: 0;
   left: 0;
-  z-index: var(--z-fixed);
+  /* z-index: var(--z-fixed); */
+  z-index: 9990;
 }
 
 .nav{
