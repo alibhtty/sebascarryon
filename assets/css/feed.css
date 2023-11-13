@@ -1,5 +1,5 @@
 body{
-    max-width:1200px;
+    /* max-width:1200px; */
     margin:0px auto;
     height:100%;
     background-color: rgb(1,1,1);
@@ -11,7 +11,7 @@ body{
     margin: 0 auto;
     column-gap:.5rem;
     columns:4;
-    padding:.5rem .5rem;
+    padding:.8rem .8rem;
     transition: all 0.5s ease;
   }
 
@@ -184,26 +184,27 @@ body{
     opacity:1;
     min-width:45vw;
     height:100%;
-    transition: all .5s ease;
+    transition: all 2.5s ease-in-out;
   }
 
   #prev-card{
     top:0;
     left:0;
-    background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0) 100%);
   }
   #next-card{
     top:0;
     right:0;
-    background: linear-gradient(-90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(-90deg, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0) 100%);
   }
   #next-card:hover{
     cursor:pointer;
-    background: linear-gradient(-90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(-90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
   }
   #prev-card:hover{
     cursor:pointer;
-    background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);}
+    background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%);
+  }
 
   
   /* #prev-card{
@@ -253,7 +254,6 @@ body{
       .container_grid {
           columns: 2;
           column-gap: .8rem;
-          padding:.5rem .5rem;
           margin-top: 0rem;
           margin-bottom: 2.5rem;
         }
@@ -269,8 +269,12 @@ body{
       .container_grid {
         columns: 2;
         column-gap: .8rem;
-        padding:.5rem .5rem;
-        margin-top: 3rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        /* padding:.5rem .5rem;
+        margin-top: 2rem; */
       }
       #close-carousel {
         display: none;
@@ -286,8 +290,8 @@ body{
       .container_grid {
           columns: 4;
           column-gap: .8rem;
-          padding:1rem 1rem;
           margin-top: 1.5rem;
+          margin-bottom: 8rem;
         }
     }
 
