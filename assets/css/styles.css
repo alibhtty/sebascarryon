@@ -713,12 +713,12 @@ img {
   right: 1.5rem; /* right: 1rem */
   bottom: -50%;
   background-color: hsla(0, 0%, 100%, .1);
-  padding: 10px;
+  padding: 12px;
   display: inline-flex;
   color: var(--title-color);
   font-size: 1.25rem;
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(20px) contrast(1.4) brightness(.7);
+  -webkit-backdrop-filter: blur(20px);
   z-index: var(--z-tooltip);
   transition: bottom .4s, transform .4s;
   border-radius: 25px;
@@ -793,15 +793,15 @@ img {
 
 
 
-/* ======== SES TITLE ========*/
+/* ======== GALERIA-TITLE ========*/
 .galeria-title{
   position: relative;
   text-align: center;
   font-size: 34px;
   font-family:Impact;
   margin: 1.5rem 0;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+    margin-top: 5rem;
+    margin-bottom: .8rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 20px;
@@ -1030,8 +1030,8 @@ img {
 /* PWA STYLE */
 @media screen and (display-mode: standalone) {
   .galeria-title{
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-top: 7rem;
+    margin-bottom: 0;
   }
   .nav{
     display: flex;
