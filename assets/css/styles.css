@@ -58,6 +58,10 @@
 
 html {
   scroll-behavior: smooth;
+  
+  overscroll-behavior: contain;
+  overscroll-behavior-x: contain;
+  overscroll-behavior-y: none;
 }
 
 body,
